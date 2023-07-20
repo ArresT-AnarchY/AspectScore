@@ -79,6 +79,6 @@ If you have any feedback, please contact us at tyhatay@ktu.edu.tr.
   
 ## Thanks
 
-- thanks to [@zubeyir91](https://www.github.com/zubeyir91
+- Thanks to [@zubeyir91](https://www.github.com/zubeyir91 for his contribution.
 
   
