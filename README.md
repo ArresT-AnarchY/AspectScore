@@ -3,6 +3,17 @@
 
 It is an ArcGIS module that allows the aspect factor used in analyzes to switch from subjective scoring to objective scoring.
 
+Calculates the aspect score of an area based on the aspect directions. An additional parameter should be set as to define which direction should be full scored. It scores between 0 to 1. In this scoring, you determine the maximum aspect score you will receive.
+
+# How to Install
+Tested with Arcmap10.8.
+
+1. Download the Aspect Score.tbx file.
+2. Open Arcmap. :)
+3. Find the location of the tbx file with ArcCatalog.
+4. You will see the model in the .tbx. You can start directly. Check out the parameters below.
+
+# Parameters
 There are 6 parameters that need to be explained about the module.
 
 **1) Layer:** Feature for which the aspect score is to be calculated. This layer must be polygon or polyline
@@ -15,9 +26,7 @@ There are 6 parameters that need to be explained about the module.
 
 **5) Contour Lines:** Contour Curves will be used in Aspect analysis.
 
-**6) Max Aspect Score Direction:**
-
-Calculates the aspect score of an area based on the north and south directions. North directions are given a score close to 0, while south directions are given a score close to 1. Scoring is calculated with a custom-made sine curve. This scoring method was made in accordance with forest roads and landslide areas. While forest roads are line features, landslide areas are polygon features.
+**6) Max Aspect Score Direction:** Calculates the aspect score of an area based on the north and south directions. North directions are given a score close to 0, while south directions are given a score close to 1. Scoring is calculated with a custom-made sine curve. This scoring method was made in accordance with forest roads and landslide areas. While forest roads are line features, landslide areas are polygon features.
 
 ## Direction - Degrees
 
