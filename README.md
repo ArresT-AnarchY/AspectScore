@@ -53,9 +53,6 @@ There are 6 parameters that need to be explained about the module.
 
   
 ## Radar Plot Svg of Landslide Areas and Forest Roads
-
-Demoya gif veya bağlantı ekleyin
-
   Landslide Areas: 
   https://tahayasin.com/aspect_score/All_Landslides.svg
 
